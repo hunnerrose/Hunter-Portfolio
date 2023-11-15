@@ -19,8 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    nodeshark,
+    moviemern,
     tripguide,
     threejs,
   } from "../assets";
@@ -172,11 +172,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Hunter provided a wonderful addition to our team with ideas and problem solving skills. She is a diligent worker and a delightful person.",
+      name: "Fernando Estrada",
+      designation: "Software Developer",
+      company: "UNLV",
+      image: "https://avatars.githubusercontent.com/u/109016353?v=4",
     },
     {
       testimonial:
@@ -198,16 +198,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NodeShark",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search for the hottest athletic wear, make an account and save items to their own personalized wishlist.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
@@ -215,13 +215,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: nodeshark,
+      source_code_link: "https://github.com/mig-gonz/NodeShark",
     },
     {
-      name: "Job IT",
+      name: "Movie MERN(Schmovie Fanatics)",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Movie library app that allows users to search and discover all different types of movies and leave reviews.",
       tags: [
         {
           name: "react",
@@ -232,12 +232,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: moviemern,
+      source_code_link: "https://github.com/hunnerrose/Movie-MERN",
     },
     {
       name: "Trip Guide",
