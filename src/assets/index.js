@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import nodeshark from "./nodeshark.png";
 import moviemern from "./moviemern.png";
-import tripguide from "./tripguide.png";
+import moviehunter from "./moviehunter.png";
 
 export {
   logo,
@@ -58,5 +58,5 @@ export {
   tesla,
   nodeshark,
   moviemern,
-  tripguide,
+  moviehunter,
 };

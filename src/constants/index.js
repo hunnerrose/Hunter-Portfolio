@@ -21,7 +21,7 @@ import {
     shopify,
     nodeshark,
     moviemern,
-    tripguide,
+    moviehunter,
     threejs,
   } from "../assets";
   
@@ -97,21 +97,9 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -180,19 +168,19 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "I’ve personally worked with Hunter and she’d be a great asset to any team.",
+      name: "Full-Stack Software Engineer & Data Analyst",
       designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      company: "Meroni Inc.",
+      image: "https://avatars.githubusercontent.com/u/114459394?v=4",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I appreciate Hunter's helpful contribution to our web application!",
+      name: "Christian Limtiaco",
+      designation: "Software Developer",
+      company: "UNLV",
+      image: "https://avatars.githubusercontent.com/u/114689190?v=4",
     },
   ];
   
@@ -219,7 +207,7 @@ import {
       source_code_link: "https://github.com/mig-gonz/NodeShark",
     },
     {
-      name: "Movie MERN(Schmovie Fanatics)",
+      name: "Schmovie FANATICS",
       description:
         "Movie library app that allows users to search and discover all different types of movies and leave reviews.",
       tags: [
@@ -240,25 +228,25 @@ import {
       source_code_link: "https://github.com/hunnerrose/Movie-MERN",
     },
     {
-      name: "Trip Guide",
+      name: "Music Hunter",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A retro-styled music library where users can search for & get more information on their favorite songs.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "API",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: moviehunter,
+      source_code_link: "https://github.com/hunnerrose/music_hunter",
     },
   ];
   
